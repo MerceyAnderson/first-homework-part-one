@@ -1,16 +1,7 @@
+# Программа которая выводит ваше имя,ваш ник телеграм,выводит название хобби (или кота)
 
-# Программа которая выводит ваше имя,ваш ник телеграм,выводит название хобби
+puts "My name : Eugen".chomp
+puts "My telegram nick : @deGoose".chomp
+puts "My hobby : computer games , read books , history , laze :) "
 
-print "What's your name? "
-name = gets.chomp
-name.capitalize!
-
-print "What's your nick telegram? "
-nick_telegram = gets.chomp
-nick_telegram.capitalize!
-
-print "What's your hobby? "
-hobby = gets.chomp
-
-puts "Your name is #{name} , you're nick telegram is #{nick_telegram} and your hobby is #{hobby}!"
 
